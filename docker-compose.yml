@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: dah
+      POSTGRES_PASSWORD: dah
+      POSTGRES_DB: attention_exchange
+    ports:
+      - "5432:5432"
+
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
