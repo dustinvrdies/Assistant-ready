@@ -1,0 +1,8 @@
+{
+  "name": "@dah/database",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "drizzle-orm": "latest"
+  }
+}
